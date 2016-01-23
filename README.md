@@ -28,5 +28,5 @@ Looks like if the error is thrown in a script that is loaded from a remote origi
 
 See https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onerror#Notes:
 
-> When a syntax(?) error occurs in a script, loaded from a different origin, the details of the syntax error are not reported to prevent leaking information (see bug 363897). Instead the error reported is simply "Script error." This behavior can be overriden in some browsers using the crossorigin attribute on &lt;script&gt; and having the server send the appropriate CORS HTTP response headers.
+> When a syntax(?) error occurs in a script, loaded from a different origin, the details of the syntax error are not reported to prevent leaking information (see bug 363897). Instead the error reported is simply "Script error." This behavior can be overriden in some browsers using the crossorigin attribute on &lt;script&gt; and **having the server send the appropriate CORS HTTP response headers.**
 
